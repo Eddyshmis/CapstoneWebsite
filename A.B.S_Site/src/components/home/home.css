@@ -1,5 +1,45 @@
+
 .card_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 10%;
+    /* justify-content: center; */
 }
+@media (max-width: 860px) {
+    .card_container {
+      justify-content: center;
+      margin: 10%;
+    }
+  }
+.acronym_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-1{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.title-2{
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.text-left{
+    text-align: left;
+    padding: 4%;
+}
+.gray-section{
+    background-color: gray;
+}
+.center{
+    text-align: center;
+
+}
+.document-text{
+    padding:4%;
+}
+
+
+
